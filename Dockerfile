@@ -1,4 +1,4 @@
-FROM schoeffman/docker-node-nvm
+FROM schoeffman/node-nvm
 
 COPY ./scripts/ /src
 
