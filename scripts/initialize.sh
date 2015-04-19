@@ -13,5 +13,11 @@ echo "=> Load NVM"
 echo "=> Enter Mobile project directory"
 cd /code/mobilefe
 
+echo "=> NPM Install"
+npm install
+
+echo "=> Bower Install"
+bower install
+
 echo "=> Run Grunt (this may take a while...)"
 grunt server
